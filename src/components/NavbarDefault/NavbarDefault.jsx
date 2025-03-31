@@ -56,10 +56,9 @@ const NavbarDefault = () => {
           >
             <ul>
               <li>
-                <Link to="/browse-listings">Places to Stay</Link>
+                <Link to="/browse-listings">Homes</Link>
               </li>
               <li>Experiences</li>
-              <li>Online Experiences</li>
             </ul>
           </div>
 
@@ -69,7 +68,7 @@ const NavbarDefault = () => {
                 <span>Welcome, {username}</span>
               ) : (
                 <Link to="/signup">
-                  <li>Become a Host</li>
+                  <li>Airbnb your home</li>
                 </Link>
               )}
 
